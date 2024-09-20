@@ -1,0 +1,10 @@
+flask
+google-generativeai
+sentence-transformers
+faiss-cpu
+pytesseract
+pdf2image
+pandas==2.1.4
+pyarrow==14.0.1
+datasets==2.14.0
+Pillow  # Needed for image handling with PIL
