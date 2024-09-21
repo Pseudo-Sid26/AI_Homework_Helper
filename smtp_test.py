@@ -1,7 +1,9 @@
+#smtp.py
+
 import requests
 
 def send_notification_to_parent(question):
-    api_key = 'Mailgun API key'
+    api_key = '23ce8585d363908659b4626b055ea9af-7a3af442-6461d556'
     domain = 'gmail.com'
     url = f'https://api.mailgun.net/v3/{domain}/messages'
     response = requests.post(
