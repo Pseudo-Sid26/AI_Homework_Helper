@@ -72,15 +72,15 @@ To utilize the parental control and email notification features, ensure your ema
 
 ## 🗂️ **Project Structure** 🗂️
 
-├── ai_helper.py # Contains core functions for AI processing 
-├── app.py # Main Flask application file 
-├── templates 
-      └── index.html # Frontend interface 
-├── static 
-      └── styles.css # Styling for the web interface 
-├── requirements.txt # Dependencies required to run the project
-├── README.md # Project README file 
-└── .env # Environment variables
+├── ai_helper.py            # Contains core functions for AI processing
+├── app.py                  # Main Flask application file
+├── templates/              # Frontend templates
+│   └── index.html          # Main HTML interface
+├── static/                 # Static files (CSS, JavaScript, images)
+│   └── styles.css          # Styling for the web interface
+├── requirements.txt        # Dependencies required to run the project
+├── README.md               # Project README file
+└── .env                    # Environment variables
 
 
 
