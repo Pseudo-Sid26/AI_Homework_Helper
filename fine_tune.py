@@ -48,7 +48,7 @@ class CustomTrainer(Trainer):
         super().save_model(output_dir, _internal_call)
 
 def main():
-    csv_path = r'C:\Users\91744\Downloads\AI-Dataset.csv'  # Update path accordingly
+    csv_path = r'"Your path"\AI-Dataset.csv'  # Update path accordingly
 
     # Load dataset
     dataset = load_and_prepare_dataset(csv_path)

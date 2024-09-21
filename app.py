@@ -66,11 +66,11 @@ def question_answer_page():
 # Configuration for email notifications
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
-app.config['MAIL_USERNAME'] = 'siddhesh26pseudo@gmail.com'  # Your email
-app.config['MAIL_PASSWORD'] = 'dzaj sxqt pzoq nxgb'  # Use an App Password if using 2-Step Verification
+app.config['MAIL_USERNAME'] = 'Your mail@gmail.com'  # Your email
+app.config['MAIL_PASSWORD'] = 'Google acc. App pwd'  # Use an App Password if using 2-Step Verification
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
-app.config['MAIL_DEFAULT_SENDER'] = 'siddhesh26pseudo@gmail.com'
+app.config['MAIL_DEFAULT_SENDER'] = 'Your mail@gmail.com'
 
 mail = Mail(app)
 

@@ -7,10 +7,10 @@ import re
 import fitz  # PyMuPDF
 
 # Specify the Tesseract executable path
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\91744\PycharmProjects\AI Project\Ai_HW_helper\OCR-Tessaract\tesseract.exe'  # Update path as needed
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\"Your path"\OCR-Tessaract\tesseract.exe'  # Update path as needed
 
 # Set Google API key for Gemini
-api_key = os.getenv('GOOGLE_API_KEY', 'AIzaSyBg565RmeNbBc6K7OQ0KvoEeW--lIrNj0Q')
+api_key = os.getenv('GOOGLE_API_KEY', 'Gemini API key')
 genai.configure(api_key=api_key)
 
 
