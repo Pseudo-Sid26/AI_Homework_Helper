@@ -70,6 +70,8 @@ To utilize the parental control and email notification features, ensure your ema
 
 ---
 
+
+
 ## 🗂️ **Project Structure** 🗂️
 
 ├── ai_helper.py            # Contains core functions for AI processing
@@ -82,6 +84,7 @@ To utilize the parental control and email notification features, ensure your ema
 ├── README.md               # Project README file
 └── .env                    # Environment variables
 
+---
 
 
 ## 🧰 **Tech Stack** 🧰
